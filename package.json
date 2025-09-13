@@ -1,0 +1,40 @@
+{
+  "name": "email-client-server",
+  "version": "1.0.0",
+  "description": "Email client server with IMAP/SMTP support, logging, and custom API integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node emailcheckerproject/server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "email",
+    "imap",
+    "smtp",
+    "express",
+    "logger",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "express": "^4.19.0",
+    "express-rate-limit": "^8.1.0",
+    "express-validator": "^7.0.1",
+    "helmet": "^8.1.0",
+    "imap": "^0.8.19",
+    "mailparser": "^3.7.1",
+    "nodemailer": "^6.9.13",
+    "poplib": "^0.1.7",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
