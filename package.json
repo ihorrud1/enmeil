@@ -22,7 +22,7 @@
     "axios": "^1.7.0",
     "express": "^4.19.0",
     "express-rate-limit": "^8.1.0",
-    "express-validator": "^7.0.1",
+    "express-validator": "^7.2.1",
     "helmet": "^8.1.0",
     "imap": "^0.8.19",
     "mailparser": "^3.7.1",
